@@ -33,7 +33,7 @@ if (!mysqli_select_db($con,$db)){
             `email_id` VARCHAR(30) NOT NULL,
             `email` VARCHAR(30) NOT NULL,
             `name` VARCHAR(30) NOT NULL,
-            `phone` VARCHAR(50)
+            `phone` VARCHAR(50) NOT NULL
             )";
             
         mysqli_query($con, $sql);

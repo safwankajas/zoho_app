@@ -34,7 +34,7 @@ include("process.php");
                             <br>
                             <label for="">Ph No</label>
                             
-                            <input class="as2" type="number" maxlength="10" max="9999999999"name="secret" name="phone" required >
+                            <input class="as2" type="number" maxlength="10" max="9999999999" name="phone" required >
                             
                             <label for="">Email</label>
 
